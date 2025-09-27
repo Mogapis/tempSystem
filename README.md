@@ -316,12 +316,13 @@ curl -s http://<web>:3000/api/readings?limit=1
 
 ---
 
-## 20. When to Move to libgpiod
+## 20. When to Move to pigpio
 
 Consider migrating if:
 - You need long-term maintenance.
 - You add more complex GPIO interactions.
 - You deploy on mixed SBC hardware brands.
+- Using a Pi from 4 downwards
 
 ---
 
