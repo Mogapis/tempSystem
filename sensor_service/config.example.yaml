@@ -1,0 +1,5 @@
+gpio_pin: 4
+interval_seconds: 5
+api_base: http://localhost:3000
+api_key: REPLACE_ME
+source_id: pi-lab

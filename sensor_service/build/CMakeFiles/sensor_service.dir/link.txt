@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/sensor_service.dir/src/main.cpp.o CMakeFiles/sensor_service.dir/src/Dht22Reader.cpp.o CMakeFiles/sensor_service.dir/src/Config.cpp.o CMakeFiles/sensor_service.dir/src/HttpClient.cpp.o -o sensor_service  -Wl,-rpath,/usr/local/lib /usr/local/lib/libwiringPi.so /usr/lib/aarch64-linux-gnu/libcurl.so 
