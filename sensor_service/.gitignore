@@ -1,2 +1,3 @@
 # Ignore config files with secrets
 **/config.yaml
+build
