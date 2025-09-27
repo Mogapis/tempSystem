@@ -1,3 +1,0 @@
-/home/drkvader/weather-station/sensor_service/build/CMakeFiles/sensor_service.dir
-/home/drkvader/weather-station/sensor_service/build/CMakeFiles/edit_cache.dir
-/home/drkvader/weather-station/sensor_service/build/CMakeFiles/rebuild_cache.dir
