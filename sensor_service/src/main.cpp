@@ -49,7 +49,7 @@ int main(int argc, char* argv[]) {
             std::cerr << "[WARN] Read failed (" << consecutiveFailures << "): " << reading.error << "\n";
         } else {
             consecutiveFailures = 0;
-            std::string tsIso = isoUtcNow(); // You could also convert reading.timestampEpochMs if you wanted
+            std::string tsIso = isoUtcNow();
             std::string postErr;
             if (postReading(cfg.api_base, cfg.api_key, cfg.source_id,
                             reading.temperatureC, reading.humidity, tsIso, postErr)) {
