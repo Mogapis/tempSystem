@@ -9,7 +9,6 @@ static std::string trim(std::string s) {
     return s;
 }
 
-// Very simple key: value YAML-ish parser (enough for your config)
 bool loadConfig(const std::string& path, ServiceConfig& cfg, std::string& err) {
     std::ifstream in(path);
     if (!in) { err = "Cannot open config file"; return false; }
