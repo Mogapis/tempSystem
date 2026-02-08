@@ -113,8 +113,6 @@ source_id: pi-lab
 | api_key | Must equal `INGEST_API_KEY` in `.env.local` |
 | source_id | Sensor identifier stored in DB |
 
-Do **NOT** commit `config.yaml`; commit only `config.example.yaml`.
-
 ---
 
 ## 7. Build
